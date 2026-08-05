@@ -66,6 +66,24 @@ button {
 
 /* button */
 
+.g-recaptcha {
+    display: flex !important;
+    justify-content: center !important;
+    margin: 15px auto !important;
+}
+
+.g-recaptcha>div {
+    margin: 0 auto !important;
+}
+
+.captcha-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
+
 .btn_img {
     width: 55%;
     margin: 0 auto;
@@ -118,7 +136,7 @@ button {
 
 /* ==========  Responsive Design  ========== */
 
-/* ==========  sm â‰¥ 576px  ========== */
+/* ==========  sm ≥ 576px  ========== */
 
 @media (min-width:576px) {
     .hero ul li {
@@ -127,11 +145,11 @@ button {
     }
 }
 
-/* ==========  md â‰¥ 768px  ========== */
+/* ==========  md ≥ 768px  ========== */
 
 @media (min-width:768px) {}
 
-/* ==========  lg â‰¥ 992px  ========== */
+/* ==========  lg ≥ 992px  ========== */
 
 @media (min-width:992px) {
     .flex {
@@ -145,7 +163,7 @@ button {
     }
 }
 
-/* ==========  xl â‰¥ 1200px  ========== */
+/* ==========  xl ≥ 1200px  ========== */
 
 @media (min-width:1200px) {}
 
@@ -257,7 +275,7 @@ button {
 
 /* ==========  Responsive Design  ========== */
 
-/* ==========  sm â‰¥ 576px  ========== */
+/* ==========  sm ≥ 576px  ========== */
 
 @media (min-width:576px) {
     .results .top_sec h3 {
@@ -265,11 +283,11 @@ button {
     }
 }
 
-/* ==========  md â‰¥ 768px  ========== */
+/* ==========  md ≥ 768px  ========== */
 
 @media (min-width:768px) {}
 
-/* ==========  lg â‰¥ 992px  ========== */
+/* ==========  lg ≥ 992px  ========== */
 
 @media (min-width:992px) {
     .results {
@@ -293,7 +311,7 @@ button {
     }
 }
 
-/* ==========  xl â‰¥ 1200px  ========== */
+/* ==========  xl ≥ 1200px  ========== */
 
 @media (min-width:1200px) {}
 
@@ -400,7 +418,7 @@ button {
 
 /* ==========  Responsive Design  ========== */
 
-/* ==========  sm â‰¥ 576px  ========== */
+/* ==========  sm ≥ 576px  ========== */
 
 @media (min-width:576px) {
     .doctor ul li {
@@ -418,7 +436,7 @@ button {
     }
 }
 
-/* ==========  lg â‰¥ 992px  ========== */
+/* ==========  lg ≥ 992px  ========== */
 
 @media (min-width:992px) {
     .flex-reverse {
@@ -454,7 +472,7 @@ button {
     }
 }
 
-/* ==========  xl â‰¥ 1200px  ========== */
+/* ==========  xl ≥ 1200px  ========== */
 
 @media (min-width:1200px) {}
 
@@ -506,7 +524,7 @@ button {
 
 /* ==========  Responsive Design  ========== */
 
-/* ==========  sm â‰¥ 576px  ========== */
+/* ==========  sm ≥ 576px  ========== */
 
 @media (min-width:576px) {
     .how_work .top_sec h3 {
@@ -523,7 +541,7 @@ button {
     }
 }
 
-/* ==========  lg â‰¥ 992px  ========== */
+/* ==========  lg ≥ 992px  ========== */
 
 @media (min-width:992px) {
     .how_work {
@@ -544,7 +562,7 @@ button {
     }
 }
 
-/* ==========  xl â‰¥ 1200px  ========== */
+/* ==========  xl ≥ 1200px  ========== */
 
 @media (min-width:1200px) {}
 
@@ -648,7 +666,7 @@ button {
 
 /* ==========  Responsive Design  ========== */
 
-/* ==========  sm â‰¥ 576px  ========== */
+/* ==========  sm ≥ 576px  ========== */
 
 @media (min-width:576px) {
     .form_section .delvery_text p {
@@ -665,7 +683,7 @@ button {
     }
 }
 
-/* ==========  lg â‰¥ 992px  ========== */
+/* ==========  lg ≥ 992px  ========== */
 
 @media (min-width:992px) {
     .form_section {
@@ -695,7 +713,7 @@ button {
     }
 }
 
-/* ==========  xl â‰¥ 1200px  ========== */
+/* ==========  xl ≥ 1200px  ========== */
 
 @media (min-width:1200px) {
     .form_section form {
@@ -749,7 +767,7 @@ button {
 
 /* ==========  Responsive Design  ========== */
 
-/* ==========  sm â‰¥ 576px  ========== */
+/* ==========  sm ≥ 576px  ========== */
 
 @media (min-width:576px) {
     .footer .boxs .box img {
@@ -757,7 +775,7 @@ button {
     }
 }
 
-/* ==========  lg â‰¥ 992px  ========== */
+/* ==========  lg ≥ 992px  ========== */
 
 @media (min-width:992px) {
     .footer .boxs .box {
